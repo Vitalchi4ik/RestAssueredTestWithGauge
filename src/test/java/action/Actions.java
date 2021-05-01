@@ -15,6 +15,8 @@ import static io.restassured.RestAssured.given;
 
 public class Actions {
 
+    public static Map<String, ?> map;
+
     public static List<String> searchInTable(Table table, String rowName){
         List<String> searchResult = new ArrayList<>();
         for(TableRow row : table.getTableRows()){

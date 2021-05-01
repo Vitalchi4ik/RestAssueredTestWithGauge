@@ -8,7 +8,6 @@ import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import java.util.List;
-import java.util.Map;
 import static action.Actions.*;
 import static config.BreweryEndpoints.PATH_PARAM;
 import static io.restassured.RestAssured.get;
@@ -73,8 +72,6 @@ public class StepImplementationBrewery extends SearchBreweriesConfig {
         String expected = minData;
         Assert.assertEquals(expected, minCreated);
     }
-
-    public static Map<String, ?> map;
 
     @Step("Extract response <parameter1> with <value1> and <parameter2> with <value2>")
     public void extractMapOfObjectWithFindValues(String brewery_type, String type, String state, String nameOfState) {

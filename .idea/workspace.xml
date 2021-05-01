@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="057287b7-bc69-4213-b5a7-c227a6e9ef02" name="Default Changelist" comment="added Markdown file">
+    <list default="true" id="057287b7-bc69-4213-b5a7-c227a6e9ef02" name="Default Changelist" comment="refactoring md file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="C:\Users\Roronoa_Zorro\IdeaProjects\BreweryTest\src\test\java\steps" />
     </key>
   </component>
-  <component name="RunManager" selected="Gauge Execution.Check last brewery name in response">
+  <component name="RunManager" selected="Gauge Execution.Check search result with parameters and find name with id">
     <configuration name="Check first brewery name in response" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="$PROJECT_DIR$/specs/SearchBreweries.spec:22" />
@@ -125,9 +124,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Check search with parameters and find name of it (1)" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
+    <configuration name="Check search result with parameters and find name with id" type="executeSpecs" factoryName="GaugeConfigurationFactory" temporary="true">
       <setting name="environment" value="" />
-      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/SearchBreweries.spec:52" />
+      <setting name="specsToExecute" value="$PROJECT_DIR$/specs/SearchBreweries.spec:54" />
       <setting name="tags" value="" />
       <setting name="parallelNodes" value="" />
       <setting name="execInParallel" value="false" />
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gauge Execution.Check search result with parameters and find name with id" />
         <item itemvalue="Gauge Execution.Check last brewery name in response" />
         <item itemvalue="Gauge Execution.Check first brewery name in response" />
         <item itemvalue="Gauge Execution.Check headers of Content-Type" />
         <item itemvalue="Gauge Execution.Check search with parameters and find name of it (2)" />
-        <item itemvalue="Gauge Execution.Check search with parameters and find name of it (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +180,28 @@
       <option name="project" value="LOCAL" />
       <updated>1619887364598</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed Markdown file">
+      <created>1619888753377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619888753377</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added Estimate to Markdown file">
+      <created>1619893561763</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619893561763</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactoring md file">
+      <created>1619893670262</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619893670262</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +218,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Markdown file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Markdown file" />
+    <MESSAGE value="changed Markdown file" />
+    <MESSAGE value="added Estimate to Markdown file" />
+    <MESSAGE value="refactoring md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring md file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
