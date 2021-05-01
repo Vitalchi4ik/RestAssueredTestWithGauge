@@ -10,7 +10,6 @@ This project uses
 - [REST Assured ](http://rest-assured.io/)
 - [Gradle](https://gradle.org/)
 
-
 # Concepts covered
 
 - REST Assured usage
@@ -64,7 +63,6 @@ This project uses
   
   ````
 - Error Guessing technique test design
-
   <br>_for example:_
   ````
    Error Guessing is a software testing technique based on guessing the error which can prevail in the code
