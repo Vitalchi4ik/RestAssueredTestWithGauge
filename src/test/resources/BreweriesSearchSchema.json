@@ -1,0 +1,233 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "id": 8865,
+      "obdb_id": "big-dog-s-brewing-co-las-vegas",
+      "name": "Big Dog's Brewing Co",
+      "brewery_type": "brewpub",
+      "street": "4547 N Rancho Dr Ste A",
+      "address_2": null,
+      "address_3": null,
+      "city": "Las Vegas",
+      "state": "Nevada",
+      "county_province": null,
+      "postal_code": "89130-3432",
+      "country": "United States",
+      "longitude": null,
+      "latitude": null,
+      "phone": "7023683715",
+      "website_url": "http://www.bigdogsbrews.com",
+      "updated_at": "2018-08-11T00:00:00.000Z",
+      "created_at": "2018-07-24T00:00:00.000Z"
+    }
+  ],
+  "required": [
+    "id",
+    "obdb_id",
+    "name",
+    "brewery_type",
+    "street",
+    "address_2",
+    "address_3",
+    "city",
+    "state",
+    "county_province",
+    "postal_code",
+    "country",
+    "longitude",
+    "latitude",
+    "phone",
+    "website_url",
+    "updated_at",
+    "created_at"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The id schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        8865
+      ]
+    },
+    "obdb_id": {
+      "$id": "#/properties/obdb_id",
+      "type": "string",
+      "title": "The obdb_id schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "big-dog-s-brewing-co-las-vegas"
+      ]
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "The name schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Big Dog's Brewing Co"
+      ]
+    },
+    "brewery_type": {
+      "$id": "#/properties/brewery_type",
+      "type": "string",
+      "title": "The brewery_type schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "brewpub"
+      ]
+    },
+    "street": {
+      "$id": "#/properties/street",
+      "type": "string",
+      "title": "The street schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "4547 N Rancho Dr Ste A"
+      ]
+    },
+    "address_2": {
+      "$id": "#/properties/address_2",
+      "type": "null",
+      "title": "The address_2 schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "address_3": {
+      "$id": "#/properties/address_3",
+      "type": "null",
+      "title": "The address_3 schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "city": {
+      "$id": "#/properties/city",
+      "type": "string",
+      "title": "The city schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Las Vegas"
+      ]
+    },
+    "state": {
+      "$id": "#/properties/state",
+      "type": "string",
+      "title": "The state schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Nevada"
+      ]
+    },
+    "county_province": {
+      "$id": "#/properties/county_province",
+      "type": "null",
+      "title": "The county_province schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "postal_code": {
+      "$id": "#/properties/postal_code",
+      "type": "string",
+      "title": "The postal_code schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "89130-3432"
+      ]
+    },
+    "country": {
+      "$id": "#/properties/country",
+      "type": "string",
+      "title": "The country schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "United States"
+      ]
+    },
+    "longitude": {
+      "$id": "#/properties/longitude",
+      "type": "null",
+      "title": "The longitude schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "latitude": {
+      "$id": "#/properties/latitude",
+      "type": "null",
+      "title": "The latitude schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "phone": {
+      "$id": "#/properties/phone",
+      "type": "string",
+      "title": "The phone schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "7023683715"
+      ]
+    },
+    "website_url": {
+      "$id": "#/properties/website_url",
+      "type": "string",
+      "title": "The website_url schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "http://www.bigdogsbrews.com"
+      ]
+    },
+    "updated_at": {
+      "$id": "#/properties/updated_at",
+      "type": "string",
+      "title": "The updated_at schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "2018-08-11T00:00:00.000Z"
+      ]
+    },
+    "created_at": {
+      "$id": "#/properties/created_at",
+      "type": "string",
+      "title": "The created_at schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "2018-07-24T00:00:00.000Z"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

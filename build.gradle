@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'org.gauge' version '1.8.2'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.thoughtworks.gauge:gauge-java:0.7.13'
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.19.0'
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '4.3.3'
+    testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+    implementation group: 'io.rest-assured', name: 'json-schema-validator', version: '4.3.3'
+}
