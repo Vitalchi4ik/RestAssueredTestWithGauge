@@ -28,9 +28,17 @@ This project uses
   
 - Install Gauge-other plugins by running [Using Gauge plugins](https://docs.gauge.org/plugin.html?os=windows&language=java&ide=vscode)
 
+## Estimate QC
 
-
-
-
-
-
+| **Descriptions**                                      | **Estimate, h**  |
+|:-----------------------------------------------------:|:-----------------|
+| **Testing**                                           | **Total Time**   | 
+| Data preparation(set up configs, install plugins etc. |        1         |
+| Read and investigation application with documentation |        0.5       |
+| Preparing module view                                 |         0.5      |
+| Smoke Check-list                                      |        0.75      |
+| Create test cases                                     |         1.15     |
+| Writing code                                          |         3        |
+| Refactoring code                                      |          1       |
+| Checklist-update                                      |          0.25    |
+| Risks (corner case situations, etc)                   |          2       |
